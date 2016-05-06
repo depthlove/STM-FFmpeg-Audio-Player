@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ABC7F7E1CDC7E2C00A4D691 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC7F7D1CDC7E2C00A4D691 /* main.m */; };
+		0ABC7F811CDC7E2C00A4D691 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC7F801CDC7E2C00A4D691 /* AppDelegate.m */; };
+		0ABC7F841CDC7E2C00A4D691 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC7F831CDC7E2C00A4D691 /* ViewController.m */; };
+		0ABC7F871CDC7E2C00A4D691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABC7F851CDC7E2C00A4D691 /* Main.storyboard */; };
+		0ABC7F891CDC7E2C00A4D691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABC7F881CDC7E2C00A4D691 /* Assets.xcassets */; };
+		0ABC7F8C1CDC7E2C00A4D691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABC7F8A1CDC7E2C00A4D691 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0ABC7F791CDC7E2C00A4D691 /* STM-FFmpeg-Audio-Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STM-FFmpeg-Audio-Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ABC7F7D1CDC7E2C00A4D691 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0ABC7F7F1CDC7E2C00A4D691 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0ABC7F801CDC7E2C00A4D691 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0ABC7F821CDC7E2C00A4D691 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0ABC7F831CDC7E2C00A4D691 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0ABC7F861CDC7E2C00A4D691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0ABC7F881CDC7E2C00A4D691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0ABC7F8B1CDC7E2C00A4D691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0ABC7F8D1CDC7E2C00A4D691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ABC7F761CDC7E2C00A4D691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ABC7F701CDC7E2C00A4D691 = {
+			isa = PBXGroup;
+			children = (
+				0ABC7F7B1CDC7E2C00A4D691 /* STM-FFmpeg-Audio-Player */,
+				0ABC7F7A1CDC7E2C00A4D691 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0ABC7F7A1CDC7E2C00A4D691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ABC7F791CDC7E2C00A4D691 /* STM-FFmpeg-Audio-Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0ABC7F7B1CDC7E2C00A4D691 /* STM-FFmpeg-Audio-Player */ = {
+			isa = PBXGroup;
+			children = (
+				0ABC7F7F1CDC7E2C00A4D691 /* AppDelegate.h */,
+				0ABC7F801CDC7E2C00A4D691 /* AppDelegate.m */,
+				0ABC7F821CDC7E2C00A4D691 /* ViewController.h */,
+				0ABC7F831CDC7E2C00A4D691 /* ViewController.m */,
+				0ABC7F851CDC7E2C00A4D691 /* Main.storyboard */,
+				0ABC7F881CDC7E2C00A4D691 /* Assets.xcassets */,
+				0ABC7F8A1CDC7E2C00A4D691 /* LaunchScreen.storyboard */,
+				0ABC7F8D1CDC7E2C00A4D691 /* Info.plist */,
+				0ABC7F7C1CDC7E2C00A4D691 /* Supporting Files */,
+			);
+			path = "STM-FFmpeg-Audio-Player";
+			sourceTree = "<group>";
+		};
+		0ABC7F7C1CDC7E2C00A4D691 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0ABC7F7D1CDC7E2C00A4D691 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0ABC7F781CDC7E2C00A4D691 /* STM-FFmpeg-Audio-Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ABC7F901CDC7E2C00A4D691 /* Build configuration list for PBXNativeTarget "STM-FFmpeg-Audio-Player" */;
+			buildPhases = (
+				0ABC7F751CDC7E2C00A4D691 /* Sources */,
+				0ABC7F761CDC7E2C00A4D691 /* Frameworks */,
+				0ABC7F771CDC7E2C00A4D691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "STM-FFmpeg-Audio-Player";
+			productName = "STM-FFmpeg-Audio-Player";
+			productReference = 0ABC7F791CDC7E2C00A4D691 /* STM-FFmpeg-Audio-Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ABC7F711CDC7E2C00A4D691 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "suntongmian@163.com";
+				TargetAttributes = {
+					0ABC7F781CDC7E2C00A4D691 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 0ABC7F741CDC7E2C00A4D691 /* Build configuration list for PBXProject "STM-FFmpeg-Audio-Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0ABC7F701CDC7E2C00A4D691;
+			productRefGroup = 0ABC7F7A1CDC7E2C00A4D691 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ABC7F781CDC7E2C00A4D691 /* STM-FFmpeg-Audio-Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ABC7F771CDC7E2C00A4D691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABC7F8C1CDC7E2C00A4D691 /* LaunchScreen.storyboard in Resources */,
+				0ABC7F891CDC7E2C00A4D691 /* Assets.xcassets in Resources */,
+				0ABC7F871CDC7E2C00A4D691 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ABC7F751CDC7E2C00A4D691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABC7F841CDC7E2C00A4D691 /* ViewController.m in Sources */,
+				0ABC7F811CDC7E2C00A4D691 /* AppDelegate.m in Sources */,
+				0ABC7F7E1CDC7E2C00A4D691 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0ABC7F851CDC7E2C00A4D691 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ABC7F861CDC7E2C00A4D691 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0ABC7F8A1CDC7E2C00A4D691 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ABC7F8B1CDC7E2C00A4D691 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0ABC7F8E1CDC7E2C00A4D691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0ABC7F8F1CDC7E2C00A4D691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0ABC7F911CDC7E2C00A4D691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "STM-FFmpeg-Audio-Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuaipai.STM-FFmpeg-Audio-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0ABC7F921CDC7E2C00A4D691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "STM-FFmpeg-Audio-Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuaipai.STM-FFmpeg-Audio-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ABC7F741CDC7E2C00A4D691 /* Build configuration list for PBXProject "STM-FFmpeg-Audio-Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ABC7F8E1CDC7E2C00A4D691 /* Debug */,
+				0ABC7F8F1CDC7E2C00A4D691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ABC7F901CDC7E2C00A4D691 /* Build configuration list for PBXNativeTarget "STM-FFmpeg-Audio-Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ABC7F911CDC7E2C00A4D691 /* Debug */,
+				0ABC7F921CDC7E2C00A4D691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ABC7F711CDC7E2C00A4D691 /* Project object */;
+}
